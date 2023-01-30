@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>JOBPLUS</title>
+</head>
+
+<body>
+    <section>
+        <nav class="nav">
+            <input type="checkbox" class="nav_toggle" id="hamburger" hidden />
+            <ul class="nav_lblock">
+                <li class="nav_hamburger">
+                    <label for="hamburger"><img src="images/hamburger.svg" alt=""></label>
+                </li>
+                <li class="nav_logo"><a href="index.html">JOBPLUS</a></li>
+            </ul>
+            <ul class="nav_icons">
+                <li><a href="listings.html"><img src="images/magnify.svg" alt=""></a></li>
+                <li><a href="notification.html"><img src="images/notify-active.svg" alt=""></a></li>
+                <li>
+                    <a href="saved_jobs.html"><img src="images/saved.svg" alt="">
+                        <span class="nav_savedcount">1</span></a>
+                </li>
+                <li><a href="profile.html"><img src="images/profile.svg" alt=""></a></li>
+                <li><a href="login.html"><img src="images/exit.svg" alt=""></a></li>
+            </ul>
+            <ul class="nav_dropl">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="listings.html">
+                    <li>Job Listing</li>
+                </a>
+                <a href="applications.html">
+                    <li>Job application</li>
+                </a>
+            </ul>
+        </nav>
+
+        <div class="hero">
+            <div class="hero__wrap">
+                <h2>Saved Jobs</h2>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="listing">
+                <div class="filter">
+                    <div class="filter__links">
+                        <h1>Browse by sector</h1>
+                        <ul>
+                            <li>Technology <span>(307)</span></li>
+                            <li>Engineering <span>(387)</span></li>
+                            <li>Business <span>(57)</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="filter__links">
+                        <h1>Browse by location</h1>
+                        <ul>
+                            <li>Jobs in Ph <span>(91)</span></li>
+                            <li>Jobs in Abuja <span>(300)</span></li>
+                            <li>Jobs in Lagos <span>(211)</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <section>
+                    <ul class="listing__saved_summary">
+                        <li><span><img src="images/star-saved.svg" alt=""></span> <b>1 saved job</b></li>
+                        <li><a href="">Remove all</a></li>
+                    </ul>
+                    <div class="listing__card">
+                        <header class="listing__header">
+                            <h1 class="listing__title"><b>Regulatory Affairs Senior Manager</b></h1>
+                            <img class="listing__saved" src="images/star-saved.svg" alt="">
+                            <p class="listing__company">Posted by <span>Koco Media</span></p>
+                        </header>
+
+                        <ul class="listing__items">
+                            <li><img src="images/money.svg" alt=""><b>Salary negotiable</b></li>
+                            <li><img src="images/location.svg" alt="">Eliozu,<b>Port Harcourt</b></li>
+                            <li><img src="images/timer.svg" alt="">Contract, full-time</li>
+                        </ul>
+
+                        <p class="listing__detail">It is a long established fact that a reader will be distracted by
+                            the readable content of a page when looking at its
+                            layout. <b>Read more...</b>
+                        </p>
+
+                        <a href="" class="listing__cta listing__cta--alert">Remove</a>
+
+                    </div>
+
+                    <ul class="paginate">
+                        <li>
+                            < PREVIOUS</li>
+                        <li>NEXT ></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+
+        <div class="cookie">
+            <p>
+                Jobplus uses cookies. By continuing you are agreeing to our use of cookies. <a href="">Learn more</a>.
+            </p>
+            <img src="images/cookie-exit.svg" alt="">
+        </div>
+    </section>
+
+    <footer class="footer">COPYRIGHTS Jobplus 2023</footer>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>JOBPLUS</title>
+</head>
+
+<body>
+    <section>
+        <nav class="nav">
+            <input type="checkbox" class="nav_toggle" id="hamburger" hidden />
+            <ul class="nav_lblock">
+                <li class="nav_hamburger">
+                    <label for="hamburger"><img src="images/hamburger.svg" alt=""></label>
+                </li>
+                <li class="nav_logo"><a href="index.html">JOBPLUS</a></li>
+            </ul>
+            <ul class="nav_icons">
+                <li><a href="listings.html"><img src="images/magnify.svg" alt=""></a></li>
+                <li><a href="notification.html"><img src="images/notify-active.svg" alt=""></a></li>
+                <li>
+                    <a href="saved_jobs.html"><img src="images/saved.svg" alt="">
+                        <span class="nav_savedcount">1</span></a>
+                </li>
+                <li><a href="profile.html"><img src="images/profile.svg" alt=""></a></li>
+                <li><a href="login.html"><img src="images/exit.svg" alt=""></a></li>
+            </ul>
+            <ul class="nav_dropl">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="listings.html">
+                    <li>Job Listing</li>
+                </a>
+                <a href="applications.html">
+                    <li>Job application</li>
+                </a>
+            </ul>
+        </nav>
+
+        <div class="hero hero--bgimg">
+            <div class="hero__wrap">
+                <h1>Connecting candidates to their dream jobs</h1>
+                <div class="form">
+                    <div class="form__group">
+                        <label class="form__label form__label--light">What</label>
+                        <input class="form__field" type="text" placeholder="Job title, skill or company">
+                    </div>
+
+                    <div class="form__group">
+                        <label class="form__label form__label--light">Where</label>
+                        <input class="form__field" type="text" placeholder="Town, city or postcode">
+                    </div>
+
+                    <div class="form__group">
+                        <input class="form__btn" type="submit" value="Search">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="sector">
+                <h2>Choose your sector</h2>
+                <p>Jobs across multiple sectors. See the latest roles now</p>
+
+                <div class="sector__types">
+                    <div class="sector__wrap">
+                        <picture class="sector__picture">
+                            <source srcset="images/technology-big.jpg" media="(min-width: 767px)">
+                            <source srcset="images/technology-small.jpg">
+                            <img src="images/technology-small.jpg" alt="">
+                        </picture>
+                        <div class="sector__name">Technology</div>
+                        <ul class="sector__list">
+                            <li><a href="">Accountancy jobs <span>5, 757</span></a></li>
+                            <li><a href="">Acturial jobs <span>5, 757</span></a></li>
+                            <li><a href="">Admin, Secretarial jobs <span>5, 757</span></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="sector__wrap">
+                        <picture class="sector__picture">
+                            <source srcset="images/engineering-big.jpg" media="(min-width: 767px)">
+                            <source srcset="images/engineering-small.jpg">
+                            <img src="images/engineering-small.jpg" alt="">
+                        </picture>
+                        <div class="sector__name">Engineering</div>
+                        <ul class="sector__list">
+                            <li><a href="">Accountancy jobs <span>5, 757</span></a></li>
+                            <li><a href="">Acturial jobs <span>5, 757</span></a></li>
+                            <li><a href="">Admin, Secretarial jobs <span>5, 757</span></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="sector__wrap">
+                        <picture class="sector__picture">
+                            <source srcset="images/business-big.jpg" media="(min-width: 767px)">
+                            <source srcset="images/business-small.jpg">
+                            <img src="images/business-small.jpg" alt="">
+                        </picture>
+                        <div class="sector__name">Business</div>
+                        <ul class="sector__list">
+                            <li><a href="">Accountancy jobs <span>5, 757</span></a></li>
+                            <li><a href="">Acturial jobs <span>5, 757</span></a></li>
+                            <li><a href="">Admin, Secretarial jobs <span>5, 757</span></a></li>
+                        </ul>
+                    </div>
+
+                    <a href="">
+                        <div class="sector__browse">Browse all sectors</div>
+                    </a>
+
+                    <ul class="sector__mlist">
+                        <li><a href="">Accountancy jobs <span>5, 757</span></a></li>
+                        <li><a href="">Acturial jobs <span>5, 757</span></a></li>
+                        <li><a href="">Admin, Secretarial jobs <span>5, 757</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="cookie">
+            <p>
+                Jobplus uses cookies. By continuing you are agreeing to our use of cookies. <a href="">Learn more</a>.
+            </p>
+            <img src="images/cookie-exit.svg" alt="">
+        </div>
+    </section>
+
+    <footer class="footer">COPYRIGHTS Jobplus 2023</footer>
+</body>
+
+</html>
